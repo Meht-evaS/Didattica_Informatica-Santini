@@ -9,7 +9,7 @@ void mywrite(int *a) {
 }
 
 
-/**
+/*
 1) gcc -o write write.c
    Manca definizione main ed i
 
@@ -57,8 +57,8 @@ presenti in ogni file, per count, i, a, e mywrite.
 		- i a riga 4 è ora definita e ha linkage esterno
 	
 	- in write.c:
-		- PRIMA DELLA CORREZZIONE: count a riga 3 è definita e ha linkage interno
-		- DOPO LA CORREZZIONE: count a riga 3 è definita e ha linkage esterno
+		- PRIMA DELLA CORREZIONE: count a riga 3 è definita e ha linkage interno
+		- DOPO LA CORREZIONE: count a riga 3 è definita e ha linkage esterno
 		- i è dichiarata ed ha linkage esterno
 		- mywrite è definita e ha linkage esterno
 		- a locale in mywrite è definita e ha no linkage

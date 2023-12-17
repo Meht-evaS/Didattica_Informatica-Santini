@@ -1,9 +1,9 @@
 //**************************************************************************//
-//  6 punti.								    //
-//           Elencare le conversioni di tipo implicite (... da ... a).      //
-//           Scrivere cosa viene stampato a schermo sapendo che:	    //
-//	     UCHAR_MAX = 255 , 'a' = 97					    //
-//									    //
+//  6 punti.                                                                //
+//           Elencare le conversioni di tipo implicite (... da ... a)       //
+//           Scrivere cosa viene stampato a schermo sapendo che:            //
+//           UCHAR_MAX = 255 , 'a' = 97                                     //
+//                                                                          //
 //**************************************************************************//
 
 #include <stdio.h>
@@ -31,7 +31,7 @@ int main (void) {
 	linea 3: il risultato della divisione è convertito da float a double
 	linea 8: il valore di ritorno è convertito da double a float
 	linea 9: 53 è convertito da int a float
-	linea 9: il valore dopo l'uguale è converito da int (dopo la conversione esplicita) a unsigned char
+	linea 9: il valore dopo l'uguale è convertito da int (dopo la conversione esplicita) a unsigned char
 
 	A schermo viene stampato "c: g, 103" perchè c = (UCHAR_MAX + 1) - 153 = 103 = 'g' in ASCII
 */
